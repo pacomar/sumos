@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="es-ES">
+	<head>
+		<base href="/">
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<title>QUATROBYTE</title>
+		<meta name="description" content="Pagina web de quatrobyte.">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="author" content="QuatroByte">
+		<link rel="icon" href="ico/favicon.ico">
+		<link rel="stylesheet" href="css/style.min.css">
+	</head>
+
+
+	<body ng-app="web">
+		<div class="container">
+			<div class="masthead">
+				<h3 class="text-muted">Project name</h3>
+				<ul class="nav nav-justified">
+					<li class="active"><a href="/">Inicio</a></li>
+					<li><a href="/projects">Proyectos</a></li>
+					<li><a href="/services">Servicios</a></li>
+					<li><a href="/about">Acerca</a></li>
+					<li><a href="/contact">Contacto</a></li>
+				</ul>
+			</div>
+
+			<div class="container" ng-view>
+
+			</div>
+
+			<!-- Site footer -->
+			<div class="footer">
+				<p>&copy; QuatroByte 2014</p>
+			</div>
+
+		</div> <!-- /container -->
+
+		<!--[if lt IE 8]>
+			<p class="browsehappy">
+				Estas usando un navegador <strong>desactualizado</strong>.
+				Por favor <a href="http://browsehappy.com/">actualiza tu navegador</a>
+				Para mejorar la experiencia..
+			</p>
+		<![endif]-->
+		<script src="js/vendor.min.js"></script>
+		<script src="js/app.min.js"></script>
+	</body>
+</html>
