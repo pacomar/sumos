@@ -1,1 +1,54 @@
-historia
+<h2>Historia</h2>
+
+<div id="imagenes_sumos">
+    <a class="imagen_sumo" href="#sumo_info" onclick="cambiaHistoria(this)">
+        <img data-nombre="Afro" data-historia="Descripción del afro Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus dolore atque quaerat quidem ab officiis, dolor, tempora tenetur dolorem eos." src="img/sumos/sumo_afro.jpg" alt="Afro">
+    </a>
+    <a class="imagen_sumo" href="#sumo_info" onclick="cambiaHistoria(this)">
+        <img data-nombre="Árbitro" data-historia="Descripción del árbitro Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus dolore atque quaerat quidem ab officiis, dolor, tempora tenetur dolorem eos." src="img/sumos/sumo_arbitro.jpg" alt="Árbitro">
+    </a>
+    <a class="imagen_sumo" href="#sumo_info" onclick="cambiaHistoria(this)">
+        <img data-nombre="Buho" data-historia="Descripción del buho Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus dolore atque quaerat quidem ab officiis, dolor, tempora tenetur dolorem eos." src="img/sumos/sumo_buho.jpg" alt="Buho">
+    </a>
+    <a class="imagen_sumo" href="#sumo_info" onclick="cambiaHistoria(this)">
+        <img data-nombre="Carpa" data-historia="Descripción de la carpa Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus dolore atque quaerat quidem ab officiis, dolor, tempora tenetur dolorem eos." src="img/sumos/sumo_carpa.jpg" alt="Carpa">
+    </a>
+    <a class="imagen_sumo" href="#sumo_info" onclick="cambiaHistoria(this)">
+        <img data-nombre="Cerdo" data-historia="Descripción del cerdo Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus dolore atque quaerat quidem ab officiis, dolor, tempora tenetur dolorem eos." src="img/sumos/sumo_cerdo.jpg" alt="Cerdo">
+    </a>
+    <a class="imagen_sumo" href="#sumo_info" onclick="cambiaHistoria(this)">
+        <img data-nombre="Esqueleto" data-historia="Descripción del esqueleto Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus dolore atque quaerat quidem ab officiis, dolor, tempora tenetur dolorem eos." src="img/sumos/sumo_esqueleto.jpg" alt="Esquelto">
+    </a>
+    <a class="imagen_sumo" href="#sumo_info" onclick="cambiaHistoria(this)">
+        <img data-nombre="Geisha" data-historia="Descripción de la geisha Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus dolore atque quaerat quidem ab officiis, dolor, tempora tenetur dolorem eos." src="img/sumos/sumo_geisha.jpg" alt="Geisha">
+    </a>
+    <a class="imagen_sumo" href="#sumo_info" onclick="cambiaHistoria(this)">
+        <img data-nombre="Mexicano" data-historia="Descripción del mexicano Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus dolore atque quaerat quidem ab officiis, dolor, tempora tenetur dolorem eos." src="img/sumos/sumo_mexicano.jpg" alt="Mexicano">
+    </a>
+    <a class="imagen_sumo" href="#sumo_info" onclick="cambiaHistoria(this)">
+        <img data-nombre="Pulpo" data-historia="Descripción del pulpo Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus dolore atque quaerat quidem ab officiis, dolor, tempora tenetur dolorem eos." src="img/sumos/sumo_pulpo.jpg" alt="Pulpo">
+    </a>
+    <a class="imagen_sumo" href="#sumo_info" onclick="cambiaHistoria(this)">
+        <img data-nombre="Samurai" data-historia="Descripción del samurai Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus dolore atque quaerat quidem ab officiis, dolor, tempora tenetur dolorem eos." src="img/sumos/sumo_samurai.jpg" alt="Samurai">
+    </a>
+    <a class="imagen_sumo" href="#sumo_info" onclick="cambiaHistoria(this)">
+        <img data-nombre="Torero" data-historia="Descripción del torero Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus dolore atque quaerat quidem ab officiis, dolor, tempora tenetur dolorem eos." src="img/sumos/sumo_torero.jpg" alt="Torero">
+    </a>
+</div>
+
+<div style="display:none">
+    <div id="sumo_info">
+        <div id="imagen_sumo"></div>
+        <div id="nombre_sumo"></div>
+        <div id="descripcion_sumo"></div>
+    </div>
+</div>
+
+<script>
+    $(document).ready(function() {
+        $(".imagen_sumo").fancybox({
+            'hideOnContentClick': true,
+            'width': 500
+        });
+    });
+</script>
